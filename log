@@ -54,3 +54,13 @@ Sun, Apr 20, 2025  3:30:48 PM:
  tests:  13|2
 total_score: 50/70
 e7036c5
+Sun, Apr 20, 2025  3:34:58 PM: 
+ hashmap.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'nextMap':
+hashmap.c:134:23: error: 'HashMap {aka struct HashMap}' has no member named 'bucktets'; did you mean 'buckets'?
+             return map->bucktets[i];
+                       ^~
+68b242a
