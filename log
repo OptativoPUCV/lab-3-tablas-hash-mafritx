@@ -70,3 +70,13 @@ Sun, Apr 20, 2025  3:35:16 PM:
  tests:  14|2
 total_score: 50/70
 82d896d
+Sun, Apr 20, 2025  3:36:37 PM: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'nextMap':
+hashmap.c:129:37: error: lvalue required as left operand of assignment
+     if (map == NULL || map->current = 0) return NULL;
+                                     ^
+bd955af
