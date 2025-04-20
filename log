@@ -15,3 +15,12 @@ Sun, Apr 20, 2025  2:55:20 PM:
 Sun, Apr 20, 2025  2:56:32 PM: 
  tests:  0|0
 088516b
+Sun, Apr 20, 2025  2:58:07 PM: 
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'createMap':
+hashmap.c:58:5: error: 'mpa' undeclared (first use in this function)
+     mpa->size = 0;
+     ^~~
+hashmap.c:58:5: note: each undeclared identifier is reported only once for each function it appears in
+f86d054
