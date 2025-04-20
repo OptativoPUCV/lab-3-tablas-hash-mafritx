@@ -80,3 +80,9 @@ hashmap.c:129:37: error: lvalue required as left operand of assignment
      if (map == NULL || map->current = 0) return NULL;
                                      ^
 bd955af
+Sun, Apr 20, 2025  3:36:59 PM: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  13|2
+total_score: 50/70
+8f985fe
