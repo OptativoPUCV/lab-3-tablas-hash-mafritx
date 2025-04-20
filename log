@@ -24,3 +24,9 @@ hashmap.c:58:5: error: 'mpa' undeclared (first use in this function)
      ^~~
 hashmap.c:58:5: note: each undeclared identifier is reported only once for each function it appears in
 f86d054
+Sun, Apr 20, 2025  2:58:38 PM: 
+ hashmap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  1|5
+total_score: 10/70
+a78790c
