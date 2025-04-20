@@ -64,3 +64,9 @@ hashmap.c:134:23: error: 'HashMap {aka struct HashMap}' has no member named 'buc
              return map->bucktets[i];
                        ^~
 68b242a
+Sun, Apr 20, 2025  3:35:16 PM: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  14|2
+total_score: 50/70
+82d896d
